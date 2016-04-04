@@ -1,0 +1,7 @@
+{
+  "name": "",node-wifi-scanner
+  "version": "0.0.1",
+  "description": "detects WiFi networks",
+  "author": "Christian Kuster <christian@kusti.ch>",
+  "main": "index.js"
+}

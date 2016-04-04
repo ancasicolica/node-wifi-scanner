@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+/**
+ * Scans for Wifi networks
+ * Created by kc on 04.04.16.
+ */
+
+var scanner = require('../index');
+
+scanner.scan((err, output) => {
+  if (err) {
+    console.error(err);
+    return;
+  }
+  console.log(output);
+});
