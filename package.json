@@ -1,7 +1,25 @@
 {
-  "name": "",node-wifi-scanner
+  "name": "node-wifi-scanner",
   "version": "0.0.1",
-  "description": "detects WiFi networks",
-  "author": "Christian Kuster <christian@kusti.ch>",
-  "main": "index.js"
+  "description": "node.js module for WiFi network detection",
+  "main": "index.js",
+  "keywords": [
+    "WiFi",
+    "Node.js",
+    "scanner"
+  ],
+  "author": {
+    "name": "Christian Kuster, CH-8342 Wernetshausen",
+    "email": "christian@kusti.ch",
+    "url": "http://www.kusti.ch/"
+  },
+  "homepage": "http://www.ferropoly.ch/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ancasicolica/node-wifi-scanner.git"
+  },
+  "engines": {
+    "node": ">= 4.4.0",
+    "npm": ">= 2.14.0"
+  }
 }
