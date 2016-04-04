@@ -14,6 +14,7 @@
     "url": "http://www.kusti.ch/"
   },
   "homepage": "http://www.ferropoly.ch/",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/ancasicolica/node-wifi-scanner.git"
@@ -21,5 +22,11 @@
   "engines": {
     "node": ">= 4.4.0",
     "npm": ">= 2.14.0"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "dependencies": {
+    "lodash": "4.8.1"
   }
 }

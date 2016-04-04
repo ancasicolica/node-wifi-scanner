@@ -46,7 +46,6 @@ describe('airport', () => {
 
   it('parses the output of file 2', function(done) {
     airport.parseOutput(fs.readFileSync(path.join(__dirname, 'fixtures','airport','airport02.txt'), { encoding: 'utf8' }), (err, info) => {
-      console.log(info);
       assert.ok(info);
       assert.equal(info.length, 4);
 
