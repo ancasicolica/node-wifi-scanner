@@ -68,6 +68,6 @@ module.exports = {
       });
       return;
     }
-    scanner(callback);
+    scanNetworks(callback);
   }
 };
