@@ -19,6 +19,10 @@ It was tested with the following operating systems:
 * Ubuntu 14.04
 * Raspbian "Jessie"
 
+## Installation
+
+    npm i node-wifi-scanner
+
 ## Usage
 
     const scanner = require('node-wifi-scanner');
