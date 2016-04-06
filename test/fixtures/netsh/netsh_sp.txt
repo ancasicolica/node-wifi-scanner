@@ -24,7 +24,7 @@ SSID 2 : EZCastec-59A02EBA
   Velocidades b sicas (Mbps): 1 2 5.5 11
     Otras velocidades (Mbps): 6 9 12 18 24 36 48 54
 
-SSID 3 : KABAWL3
+SSID 3 : LOLOWL3
     Tipo de red             : Infraestructura
     Autenticaci¢n           : WPA2-Personal
     Cifrado                 : CCMP 
@@ -46,7 +46,7 @@ SSID 4 : IKMGUEST
   Velocidades b sicas (Mbps): 1 2 5.5 11
     Otras velocidades (Mbps): 6 9 12 18 24 36 48 54
 
-SSID 5 : KABAWL
+SSID 5 : LOLOWL
     Tipo de red             : Infraestructura
     Autenticaci¢n           : WPA2-Personal
     Cifrado                 : CCMP 

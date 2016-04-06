@@ -4,7 +4,7 @@ wlan0     Scan completed :
                     Frequency:2.412 GHz (Channel 1)
                     Quality=39/70  Signal level=-71 dBm  
                     Encryption key:on
-                    ESSID:"KABA-Wifi"
+                    ESSID:"LORA-Wifi"
                     Bit Rates:6 Mb/s; 9 Mb/s; 12 Mb/s; 18 Mb/s; 24 Mb/s
                               36 Mb/s; 48 Mb/s; 54 Mb/s
                     Mode:Master
@@ -66,7 +66,7 @@ wlan0     Scan completed :
                     Frequency:2.412 GHz (Channel 1)
                     Quality=41/70  Signal level=-69 dBm  
                     Encryption key:on
-                    ESSID:"TenDev"
+                    ESSID:"OppDev"
                     Bit Rates:6 Mb/s; 9 Mb/s; 12 Mb/s; 18 Mb/s; 24 Mb/s
                               36 Mb/s; 48 Mb/s; 54 Mb/s
                     Mode:Master
@@ -97,7 +97,7 @@ wlan0     Scan completed :
                     Frequency:2.412 GHz (Channel 1)
                     Quality=42/70  Signal level=-68 dBm  
                     Encryption key:on
-                    ESSID:"TenTest"
+                    ESSID:"OppTest"
                     Bit Rates:6 Mb/s; 9 Mb/s; 12 Mb/s; 18 Mb/s; 24 Mb/s
                               36 Mb/s; 48 Mb/s; 54 Mb/s
                     Mode:Master
@@ -249,7 +249,7 @@ wlan0     Scan completed :
                     Frequency:2.412 GHz (Channel 1)
                     Quality=24/70  Signal level=-86 dBm  
                     Encryption key:on
-                    ESSID:"KABA-Wifi"
+                    ESSID:"LORA-Wifi"
                     Bit Rates:6 Mb/s; 9 Mb/s; 12 Mb/s; 18 Mb/s; 24 Mb/s
                               36 Mb/s; 48 Mb/s; 54 Mb/s
                     Mode:Master
@@ -312,7 +312,7 @@ wlan0     Scan completed :
                     Frequency:2.437 GHz (Channel 6)
                     Quality=32/70  Signal level=-78 dBm  
                     Encryption key:on
-                    ESSID:"Kaba Training"
+                    ESSID:"LORA Training"
                     Bit Rates:1 Mb/s; 2 Mb/s; 5.5 Mb/s; 11 Mb/s; 18 Mb/s
                               24 Mb/s; 36 Mb/s; 54 Mb/s
                     Bit Rates:6 Mb/s; 9 Mb/s; 12 Mb/s; 48 Mb/s
@@ -336,7 +336,7 @@ wlan0     Scan completed :
                     Frequency:2.437 GHz (Channel 6)
                     Quality=28/70  Signal level=-82 dBm  
                     Encryption key:on
-                    ESSID:"KABA-Wifi"
+                    ESSID:"LORA-Wifi"
                     Bit Rates:6 Mb/s; 9 Mb/s; 12 Mb/s; 18 Mb/s; 24 Mb/s
                               36 Mb/s; 48 Mb/s; 54 Mb/s
                     Mode:Master
@@ -398,7 +398,7 @@ wlan0     Scan completed :
                     Frequency:2.437 GHz (Channel 6)
                     Quality=28/70  Signal level=-82 dBm  
                     Encryption key:on
-                    ESSID:"TenDev"
+                    ESSID:"OppDev"
                     Bit Rates:6 Mb/s; 9 Mb/s; 12 Mb/s; 18 Mb/s; 24 Mb/s
                               36 Mb/s; 48 Mb/s; 54 Mb/s
                     Mode:Master
@@ -429,7 +429,7 @@ wlan0     Scan completed :
                     Frequency:2.437 GHz (Channel 6)
                     Quality=28/70  Signal level=-82 dBm  
                     Encryption key:on
-                    ESSID:"TenTest"
+                    ESSID:"OppTest"
                     Bit Rates:6 Mb/s; 9 Mb/s; 12 Mb/s; 18 Mb/s; 24 Mb/s
                               36 Mb/s; 48 Mb/s; 54 Mb/s
                     Mode:Master
@@ -581,7 +581,7 @@ wlan0     Scan completed :
                     Frequency:2.462 GHz (Channel 11)
                     Quality=32/70  Signal level=-78 dBm  
                     Encryption key:on
-                    ESSID:"KABA-Wifi"
+                    ESSID:"LORA-Wifi"
                     Bit Rates:6 Mb/s; 9 Mb/s; 12 Mb/s; 18 Mb/s; 24 Mb/s
                               36 Mb/s; 48 Mb/s; 54 Mb/s
                     Mode:Master
@@ -643,7 +643,7 @@ wlan0     Scan completed :
                     Frequency:2.462 GHz (Channel 11)
                     Quality=34/70  Signal level=-76 dBm  
                     Encryption key:on
-                    ESSID:"TenDev"
+                    ESSID:"OppDev"
                     Bit Rates:6 Mb/s; 9 Mb/s; 12 Mb/s; 18 Mb/s; 24 Mb/s
                               36 Mb/s; 48 Mb/s; 54 Mb/s
                     Mode:Master
@@ -674,7 +674,7 @@ wlan0     Scan completed :
                     Frequency:2.462 GHz (Channel 11)
                     Quality=33/70  Signal level=-77 dBm  
                     Encryption key:on
-                    ESSID:"TenTest"
+                    ESSID:"OppTest"
                     Bit Rates:6 Mb/s; 9 Mb/s; 12 Mb/s; 18 Mb/s; 24 Mb/s
                               36 Mb/s; 48 Mb/s; 54 Mb/s
                     Mode:Master
@@ -768,7 +768,7 @@ wlan0     Scan completed :
                     Frequency:2.462 GHz (Channel 11)
                     Quality=23/70  Signal level=-87 dBm  
                     Encryption key:on
-                    ESSID:"TenDev"
+                    ESSID:"OppDev"
                     Bit Rates:6 Mb/s; 9 Mb/s; 12 Mb/s; 18 Mb/s; 24 Mb/s
                               36 Mb/s; 48 Mb/s; 54 Mb/s
                     Mode:Master
@@ -799,7 +799,7 @@ wlan0     Scan completed :
                     Frequency:2.462 GHz (Channel 11)
                     Quality=23/70  Signal level=-87 dBm  
                     Encryption key:on
-                    ESSID:"TenTest"
+                    ESSID:"OppTest"
                     Bit Rates:6 Mb/s; 9 Mb/s; 12 Mb/s; 18 Mb/s; 24 Mb/s
                               36 Mb/s; 48 Mb/s; 54 Mb/s
                     Mode:Master

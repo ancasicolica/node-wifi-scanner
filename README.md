@@ -9,6 +9,8 @@ The module was inspired from Maurice Sways "[node-wifiscanner](https://github.co
 had to handle much more complex network environments and also wanted to be independent of the operating
 system language. The adaptions needed would have been too comprehensive for a pull request so I decided to write an own module.
 
+**The module is currently in BETA testing, changes in functionality and interface are possible. Please report bugs on the projects GitHub page, Thanks!**
+
 ## Operating Systems
 
 It was tested with the following operating systems:
@@ -28,6 +30,16 @@ It was tested with the following operating systems:
       }
       console.log(networks);
     });
+
+The tool returns an array with objects, each object representing a network with the following properties:
+
+* channel: WiFi channel
+* ssid: SSID of the network (if available)
+* mac: MAC Address of the network access point
+* rssi: signal strength
+
+In contrary to other wifi scanners no information about security is returned. This is due to the very different implementation
+of the command line tools which do not allow a flawless detection.
 
 ## Technical background
 

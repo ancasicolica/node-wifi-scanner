@@ -15,9 +15,13 @@ describe.skip('nmcli', () => {
 
       console.log(info);
       assert.ok(info);
-      assert.equal(info.length, 36);
+      assert.equal(info.length, 19);
 
-
+      var ap = info[0];
+      assert.equal(ap.mac, '00:35:1A:90:56:06');
+      assert.equal(ap.ssid, 'PDANet1');
+      //assert.equal(ap.rssi, -70);
+      assert.strictEqual(ap.channel, 112);
 
       done(err);
     });
