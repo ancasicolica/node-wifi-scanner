@@ -20,8 +20,8 @@
     "url": "https://github.com/ancasicolica/node-wifi-scanner.git"
   },
   "engines": {
-    "node": ">= 4.4.0",
-    "npm": ">= 2.14.0"
+    "node": ">= 4.0.0",
+    "npm": ">= 2.0.0"
   },
   "scripts": {
     "test": "mocha test"
