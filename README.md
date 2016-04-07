@@ -1,6 +1,8 @@
 #node-wifi-scanner
 
 [![Build Status](https://travis-ci.org/ancasicolica/node-wifi-scanner.svg?branch=master)](https://travis-ci.org/ancasicolica/node-wifi-scanner)
+[![npm](https://img.shields.io/npm/v/node-wifi-scanner.svg)]()
+[![npm](https://img.shields.io/npm/dt/node-wifi-scanner.svg)](https://www.npmjs.com/package/node-wifi-scanner)
 
 This module for node.js scans available wifi networks. The main purpose was to enhance my node.js based
 [ZigBee Site Survey Tool](http://ancasicolica.github.io/ZigBeeSiteSurvey/) with WiFi coexistence charts. This tool
