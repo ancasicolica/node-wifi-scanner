@@ -6,14 +6,22 @@
   "keywords": [
     "WiFi",
     "Node.js",
-    "scanner"
+    "scanner",
+    "airport",
+    "netsh",
+    "iwlist",
+    "nmcli"
   ],
   "author": {
     "name": "Christian Kuster, CH-8342 Wernetshausen",
     "email": "info@kusti.ch",
     "url": "http://www.kusti.ch/"
   },
-  "homepage": "http://www.ferropoly.ch/",
+  "homepage": "https://github.com/ancasicolica/node-wifi-scanner",
+  "bugs": {
+    "url": "https://github.com/ancasicolica/node-wifi-scanner/issues",
+    "email": "info@ancasicolica.ch"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -31,6 +39,7 @@
   },
   "devDependencies": {
     "grunt": "0.4.5",
-    "grunt-bump": "0.7.0"
+    "grunt-bump": "0.7.0",
+    "mocha": "2.2.5"
   }
 }

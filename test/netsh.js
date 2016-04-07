@@ -93,7 +93,7 @@ describe('netsh', function () {
     netsh.parseOutput(fs.readFileSync(path.join(__dirname, 'fixtures', 'netsh', 'netsh_sp.txt'), {encoding: 'utf8'}), (err, info) => {
       assert.ok(info);
       assert.equal(info.length, 8);
-      console.log(info);
+
       var ap = info[0];
       assert.equal(ap.mac, '98:fc:11:b6:88:9e');
       assert.equal(ap.ssid, 'CARAMANZANAS_BAJA');
