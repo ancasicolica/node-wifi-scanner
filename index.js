@@ -8,7 +8,6 @@ const exec    = require('child_process').exec;
 // The tools
 const airport = require('./lib/airport');
 const iwlist  = require('./lib/iwlist');
-const nmcli   = require('./lib/nmcli');
 const netsh   = require('./lib/netsh');
 
 var scanner;
@@ -24,19 +23,11 @@ function initTools(callback) {
       if (stats) {
         return callback(null, iwlist);
       }
-
-      fs.stat(nmcli.tool, function (err, stats) {
+      fs.stat(netsh.tool, function (err, stats) {
         if (stats) {
-          return callback(null, nmcli);
+          return callback(null, netsh);
         }
-
-        fs.stat(netsh.tool, function (err, stats) {
-          if (stats) {
-            return callback(null, netsh);
-          }
-
-          callback(new Error('No scanner found'));
-        });
+        callback(new Error('No scanner found'));
       });
     });
   });
