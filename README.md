@@ -13,8 +13,6 @@ The module was inspired from Maurice Sways "[node-wifiscanner](https://github.co
 had to handle much more complex network environments and also wanted to be independent of the operating
 system language. The adaptions needed would have been too comprehensive for a pull request so I decided to write an own module.
 
-**The module is currently in BETA testing, changes in functionality and interface are possible. Please report bugs on the projects GitHub page, Thanks!**
-
 ## Operating Systems
 
 It was tested with the following operating systems:
@@ -56,7 +54,6 @@ The module uses command line tools for gathering the network information:
 * airport on Mac OS-X: `airport -s`
 * netsh on Windows: `netsh wlan show networks mode=Bssid`
 * iwlist (1st choice) on Linux: `iwlist scan`
-* nmcli (fallback only) on Linux: `nmcli -m tabular -f SSID,BSSID,SIGNAL,FREQ device wifi`
 
 Unfortunately, Mac OS-X and Windows use the system language for the output which requires a quite
 generic way of parsing the data. If you experience any troubles, please create a GitHub issue and supply
