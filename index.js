@@ -5,6 +5,8 @@
 
 const fs      = require('fs');
 const exec    = require('child_process').exec;
+const async   = require('async');
+const _       = require('lodash');
 // The tools
 const airport = require('./lib/airport');
 const iwlist  = require('./lib/iwlist');
@@ -14,25 +16,36 @@ var scanner;
 
 // Initializing the tools
 function initTools(callback) {
-  fs.stat(airport.tool, function (err, stats) {
-    if (stats) {
-      return callback(null, airport);
-    }
 
-    fs.stat(iwlist.tool, function (err, stats) {
-      if (stats) {
-        return callback(null, iwlist);
+  // When a command is not found, an error is issued and async would finish. Therefore we pack
+  // the error into the result and check it later on.
+  async.parallel([
+      function (cb) {
+        exec(airport.detector, err => cb(null, {err: err, scanner: airport}));
+      },
+      function (cb) {
+        exec(iwlist.detector, err => cb(null, {err: err, scanner: iwlist}));
+      },
+      function (cb) {
+        exec(netsh.detector, err => cb(null, {err: err, scanner: netsh}));
       }
-      fs.stat(netsh.tool, function (err, stats) {
-        if (stats) {
-          return callback(null, netsh);
-        }
-        callback(new Error('No scanner found'));
+    ],
+    function (err, results) {
+      let res = _.find(results, f => {
+        return !f.err
       });
+
+      if (res) {
+        return callback(null, res.scanner);
+      }
+      callback(new Error('No scanner found'));
     });
-  });
 }
 
+/**
+ * Scan the networks with the scanner detected before
+ * @param callback
+ */
 function scanNetworks(callback) {
   exec(scanner.cmdLine, function (err, stdout) {
     if (err) {
