@@ -21,25 +21,39 @@ function initTools(callback) {
   // the error into the result and check it later on.
   async.parallel([
       function (cb) {
-        exec(airport.detector, err => cb(null, {err: err, scanner: airport}));
+        exec(airport.detector, function (err) {
+            cb(null, {err: err, scanner: airport}
+            )
+          }
+        );
       },
       function (cb) {
-        exec(iwlist.detector, err => cb(null, {err: err, scanner: iwlist}));
+        exec(iwlist.detector, function (err) {
+            cb(null, {err: err, scanner: iwlist}
+            )
+          }
+        );
       },
       function (cb) {
-        exec(netsh.detector, err => cb(null, {err: err, scanner: netsh}));
+        exec(netsh.detector, function (err) {
+            cb(null, {err: err, scanner: netsh}
+            )
+          }
+        );
       }
     ],
     function (err, results) {
-      let res = _.find(results, f => {
-        return !f.err
-      });
+      var res = _.find(results,
+        function (f) {
+          return !f.err
+        });
 
       if (res) {
         return callback(null, res.scanner);
       }
       callback(new Error('No scanner found'));
-    });
+    }
+  );
 }
 
 /**
@@ -63,7 +77,7 @@ module.exports = {
    */
   scan: function (callback) {
     if (!scanner) {
-      initTools((err, s) => {
+      initTools(function (err, s) {
         if (err) {
           return callback(err);
         }
