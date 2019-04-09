@@ -3,7 +3,6 @@
  * Created by kc on 04.04.16.
  */
 
-const fs      = require('fs');
 const exec    = require('child_process').exec;
 const async   = require('async');
 const _       = require('lodash');

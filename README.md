@@ -27,6 +27,12 @@ It was tested with the following operating systems:
 
 ## Usage
 
+### Command Line
+
+Run the script ```scan``` in the bin folder.
+
+### Code
+
     const scanner = require('node-wifi-scanner');
 
     scanner.scan((err, networks) => {

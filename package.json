@@ -35,12 +35,12 @@
     "test": "mocha test"
   },
   "dependencies": {
-    "async": "2.1.4",
+    "async": "2.6.2",
     "lodash": "^4.17.11"
   },
   "devDependencies": {
     "grunt": "^1.0.3",
-    "grunt-bump": "0.7.0",
+    "grunt-bump": "0.8.0",
     "mocha": "^6.0.2"
   }
 }
