@@ -16,7 +16,7 @@ describe('netsh', function () {
       assert.ok(info);
       assert.equal(info.length, 86);
       
-      var ap = info[0];
+      let ap = info[0];
       assert.equal(ap.mac, '00:f2:8b:8c:a6:88');
       assert.equal(ap.ssid, '');
       assert.equal(ap.rssi, -88.5);
@@ -55,7 +55,7 @@ describe('netsh', function () {
       assert.ok(info);
       assert.equal(info.length, 86);
       
-      var ap = info[0];
+      let ap = info[0];
       assert.equal(ap.mac, '00:f2:8b:8c:a6:88');
       assert.equal(ap.ssid, '');
       assert.equal(ap.rssi, -88.5);
@@ -94,7 +94,7 @@ describe('netsh', function () {
       assert.ok(info);
       assert.equal(info.length, 8);
 
-      var ap = info[0];
+      let ap = info[0];
       assert.equal(ap.mac, '98:fc:11:b6:88:9e');
       assert.equal(ap.ssid, 'CARAMANZANAS_BAJA');
       assert.equal(ap.rssi, -86);

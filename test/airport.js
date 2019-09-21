@@ -16,7 +16,7 @@ describe('airport', () => {
       assert.ok(info);
       assert.equal(info.length, 36);
 
-      var ap = info[0];
+      let ap = info[0];
       assert.equal(ap.mac, '00:35:1a:90:56:03');
       assert.equal(ap.ssid, 'OurTest');
       assert.equal(ap.rssi, -70);
@@ -49,7 +49,7 @@ describe('airport', () => {
       assert.ok(info);
       assert.equal(info.length, 4);
 
-      var ap = info[0];
+      let ap = info[0];
       assert.equal(ap.mac, '7c:b7:33:ae:3b:06');
       assert.equal(ap.ssid, 'Raupo');
       assert.equal(ap.rssi, -80);

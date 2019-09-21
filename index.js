@@ -11,7 +11,7 @@ const airport = require('./lib/airport');
 const iwlist  = require('./lib/iwlist');
 const netsh   = require('./lib/netsh');
 
-var scanner;
+let scanner;
 
 // Initializing the tools
 function initTools(callback) {
@@ -42,7 +42,7 @@ function initTools(callback) {
       }
     ],
     function (err, results) {
-      var res = _.find(results,
+      let res = _.find(results,
         function (f) {
           return !f.err
         });

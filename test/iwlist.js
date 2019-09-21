@@ -22,7 +22,7 @@ describe('iwlist', () => {
 
       assert.ok(info);
 
-      var ap = info[0];
+      let ap = info[0];
       assert.equal(ap.mac, 'D4:D1:84:50:76:45');
       assert.equal(ap.ssid, 'gsy-97796');
       assert.equal(ap.rssi, -76);
@@ -40,7 +40,7 @@ describe('iwlist', () => {
     iwlist.parseOutput(fs.readFileSync(path.join(__dirname, 'fixtures','iwlist','iwlist03_raspi.txt'), { encoding: 'utf8' }), (err, info) => {
       assert.ok(info);
       
-      var ap = info[0];
+      let ap = info[0];
       assert.equal(ap.mac, '00:35:1A:90:56:00');
       assert.equal(ap.ssid, 'LORA-Wifi');
       assert.equal(ap.rssi, -71);
