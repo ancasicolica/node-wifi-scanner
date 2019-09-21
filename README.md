@@ -66,6 +66,9 @@ Unfortunately, Mac OS-X and Windows use the system language for the output which
 generic way of parsing the data. If you experience any troubles, please create a GitHub issue and supply
 the output of the tool.
 
+**Important note for Linux users**: iwlist does only return all found networks if run as sudo! Otherwise you'll
+get only the network you're connected to.
+
 ## Licence
 
 The MIT License (MIT)
