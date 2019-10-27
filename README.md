@@ -66,8 +66,21 @@ Unfortunately, Mac OS-X and Windows use the system language for the output which
 generic way of parsing the data. If you experience any troubles, please create a GitHub issue and supply
 the output of the tool.
 
-**Important note for Linux users**: iwlist does only return all found networks if run as sudo! Otherwise you'll
+## Limits of the tool
+
+There is no such thing as perfect software  and this is all the more true when the tools used require different 
+access rights depending on
+the operating system. Please note the following restrictions 
+before using this tool in a productive system.
+
+**Linux**: iwlist does only return all found networks if run as sudo! Otherwise you'll
 get only the network you're connected to.
+
+**Windows**: there are some network cards which do not 
+return the MAC address and other parameters of the found networks. In this case
+the "found" networks are ignored as there is no valuable data. If you have this effect
+on your system, please provide as many information about your system (PC manufacturer, network
+card, OS,...) as available. Thanks
 
 ## Licence
 
