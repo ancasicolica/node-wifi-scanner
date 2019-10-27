@@ -1,6 +1,6 @@
 {
   "name": "node-wifi-scanner",
-  "version": "1.1.2",
+  "version": "1.1.2np",
   "description": "node.js module for WiFi network detection",
   "main": "index.js",
   "keywords": [
