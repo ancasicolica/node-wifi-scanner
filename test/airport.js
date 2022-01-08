@@ -17,7 +17,7 @@ describe('airport', () => {
       assert.equal(info.length, 36);
 
       let ap = info[0];
-      assert.equal(ap.mac, '00:35:1a:90:56:03');
+      assert.equal(ap.mac, '');
       assert.equal(ap.ssid, 'OurTest');
       assert.equal(ap.rssi, -70);
       assert.strictEqual(ap.channel, 112);
