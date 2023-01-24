@@ -47,7 +47,7 @@ The tool returns an array with objects, each object representing a network with 
 
 * channel: WiFi channel
 * ssid: SSID of the network (if available)
-* mac: MAC Address of the network access point
+* mac: MAC Address of the network access point (if available, otherwise empty string)
 * rssi: signal strength
 
 In contrary to other wifi scanners no information about security is returned. This is due to the very different implementation
