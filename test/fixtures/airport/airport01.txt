@@ -1,5 +1,5 @@
                             SSID BSSID             RSSI CHANNEL HT CC SECURITY (auth/unicast/group)
-                         OurTest 00:35:1a:90:56:03 -70  112     Y  CH WPA2(PSK/AES/AES) 
+                         OurTest                   -70  112     Y  CH WPA2(PSK/AES/AES) 
                           OurDev 00:35:1a:90:56:04 -70  112     Y  CH WPA2(PSK/AES/AES) 
                          PDANet1 00:35:1a:90:56:09 -70  112     Y  CH WPA2(PSK/AES/AES) 
                        TEST-Wifi 00:35:1a:90:56:0f -70  112     Y  CH WPA2(PSK/AES/AES) 
